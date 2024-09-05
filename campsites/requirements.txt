@@ -1,8 +1,6 @@
-twilio>=^6.55.0
-fake-useragent>=^0.1.11
-requests>=^2.25.1
-click>=^7.1.2
-python-dotenv>=^0.17.0
-python-dateutil>=^2.8.1
-importlib_resources
-importlib
+twilio>=6.55.0
+fake-useragent>=0.1.11
+requests>=2.25.1
+click>=7.1.2
+python-dotenv>=0.17.0
+python-dateutil>=2.8.1
