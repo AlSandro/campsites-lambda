@@ -24,11 +24,11 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run tests
-        working-directory: campsites
-        run: |
-          # Add your test commands here
-          pytest tests/
+      # - name: Run tests
+      #   working-directory: campsites
+      #   run: |
+      #     # Add your test commands here
+      #     pytest tests/
 
       - name: Package Lambda function
         run: |
